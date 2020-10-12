@@ -16,7 +16,7 @@ python3 TheEYE.py
 ```
 
 <br>
-
+<b></b>
 Download archive
 
 Open the cmd in the folder where you unpacked the archive
