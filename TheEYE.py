@@ -44,8 +44,8 @@ try:
     if argument == "-u":
         ping = str(subprocess.Popen(["nslookup", address], stdout = subprocess.PIPE).stdout.read())
         ipmatch = re.findall(r"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b", ping)
-        print("\n\n ",Fore.GREEN,"[+]", ipmatch[1])
-        location(ipmatch[1])
+        print("\n\n ",Fore.GREEN,"[+]", ipmatch[0])
+        location(ipmatch[0])
 
     elif argument == "-i":
         location(address)
