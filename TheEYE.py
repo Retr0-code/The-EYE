@@ -55,8 +55,10 @@ except IndexError:
     print("""
 Usage:
     
-    -u     uses for url address      TheEYE.py -u www.example.com
-    -i     uses for ipv4 address     TheEYE.py -i 0.0.0.0
+    -u     uses for url address                   TheEYE.py -u www.example.com
+           use address without files or folders
+    
+    -i     uses for ipv4 address                  TheEYE.py -i 0.0.0.0
     ______________________________________________________________
 
     lat is latitude |
