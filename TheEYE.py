@@ -25,7 +25,6 @@ by >>>Retr0
 
 
 pattern = r'[{/}/"/]'
-#pattern2 = r"[</>/(/)/,/=/ /'/][йцукенгшщзхъфывапролджэячсмитьбю]"
 
 
 def location(ip):
@@ -35,7 +34,7 @@ def location(ip):
 
     secondFormat = re.sub(',', "\n", firstFormat)
 
-    print("\n\n", secondFormat)
+    print("\n\n",Fore.GREEN, secondFormat)
 
 
 try:
