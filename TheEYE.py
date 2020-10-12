@@ -42,7 +42,7 @@ try:
     address = sys.argv[2]
 
     if argument == "-u":
-        ping = str(subprocess.Popen(["nslookup", "www.google.com"], stdout = subprocess.PIPE).stdout.read())
+        ping = str(subprocess.Popen(["nslookup", address], stdout = subprocess.PIPE).stdout.read())
         ipmatch = re.findall(r"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b", ping)
         print("\n\n ",Fore.GREEN,"[+]", ipmatch[1])
         location(ipmatch[1])
