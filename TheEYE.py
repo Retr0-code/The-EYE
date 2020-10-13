@@ -56,6 +56,7 @@ Usage:
     
     -u     uses for url address                   TheEYE.py -u www.example.com
            use address without files or folders
+           withou http:// and https:// just www
     
     -i     uses for ipv4 address                  TheEYE.py -i 0.0.0.0
     ______________________________________________________________
